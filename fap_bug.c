@@ -17,7 +17,7 @@ fap inserer(fap f, int element, int priorite)
   nouveau->priorite = priorite;
 
   /* insertion en tete */
-  if ((f = NULL) || (priorite < f->priorite))
+  if ((priorite < f->priorite) || (f == NULL))
     {
       nouveau->prochain = f;
       f = nouveau;
