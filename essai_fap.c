@@ -25,7 +25,7 @@ int main()
 
   f = creer_fap_vide();
   aide();
-  while (1)
+  while (1&1)
     {
       commande = getchar();
       switch (commande)
